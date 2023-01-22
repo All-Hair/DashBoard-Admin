@@ -550,7 +550,6 @@ function Dashboard() {
                 {/*  <!-- Page Heading --> */}
                 <div className="d-sm-flex align-items-center justify-content-between mb-4">
                   <h1 className="h3 mb-0 text-gray-800">Dashboard</h1>
-                  
                 </div>
 
                 {/*  <!-- Content Row --> */}
@@ -773,53 +772,103 @@ function Dashboard() {
                   <div className="col-lg-6 mb-4">
                     {/* <!-- Poducts --> */}
 
-                     
                     {/* <!-- all users--> */}
                     <div className="row">
-          
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Image</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Edit</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              <img alt="" />
+                            </td>
+                            <td>200 DT</td>
+                            <td>30 </td>
+                            <td>
+                              <button>❌</button>
+                              <button>🔧</button>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>
+                              <img alt="" />
+                            </td>
+                            <td>30 DT</td>
+                            <td>17</td>
+                            <td>
+                              <button>❌</button>
+                              <button>🔧</button>
+                            </td>{' '}
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>
+                              <img alt="" />
+                            </td>
+                            <td>300 DT</td>
+                            <td>1</td>
+                            <td>
+                              <button>❌</button>
+                              <button>🔧</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
                     </div>
                   </div>
 
                   <div className="col-lg-6 mb-4">
                     {/* <!-- users --> */}
                     <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Punishment</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            <td><button>Ban</button></td>
-
-                          </tr>
-                          <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            <td><button>Ban</button></td>
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            <td><button>Ban</button></td>
-
-                          </tr>
-                        </tbody>
-                      </table>
+                      <thead>
+                        <tr>
+                          <th scope="col">#</th>
+                          <th scope="col">First</th>
+                          <th scope="col">Last</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">Punishment</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>Mark</td>
+                          <td>Otto</td>
+                          <td>@mdo</td>
+                          <td>
+                            <button>Ban</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>Jacob</td>
+                          <td>Thornton</td>
+                          <td>@fat</td>
+                          <td>
+                            <button>Ban</button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td colspan="2">Larry the Bird</td>
+                          <td>@twitter</td>
+                          <td>
+                            <button>Ban</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
 
                     {/* <!--  --> */}
-                   
                   </div>
                 </div>
               </div>
