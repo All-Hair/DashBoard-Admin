@@ -1,11 +1,16 @@
-/* import logo from './logo.svg'; */
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Users from '../component/User/Users';
+
 
 function App() {
   return (
-    <>
-    Hello World
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route  path='/users' element={<Users />}/>
+    </Routes>
+    
+    </BrowserRouter>
   );
 }
 
